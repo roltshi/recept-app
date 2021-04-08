@@ -1,0 +1,38 @@
+/**
+ *
+ *
+ *
+ *          Teendők
+ *
+ *
+ *   - Folytatni a feltöltés oldalt
+ *
+ *  -   Eddig kész: A kép feltöltés:  a képet fel lehet tölteni id email és képnév alapján ami egy letöltési linket generál és
+ *      ez a link lesz az "image" property az adatbázisban a receptnél.
+ *
+ *
+ *          !!! Elsőnek a képet kell feltölteni a storage-ba majd egyuttal az vissza adja a letöltési linket AMIT elmentunk
+ *              az adatbázisban "image" propertyként, így nem egyszerubben le tudjuk kérni a kép urlt.
+ *              Szóval a StorageContext-ben kell átírni az uploadImage functiont kicsit.
+ *
+ *
+ *          + recept törlési lehetőség (a képet is ki kell törölni)
+ *          + recept módosítás
+ *
+ *         ---Feltölés---
+ *
+ *          1. képfeltöltés
+ *
+ *          2. receptek --> {recept_id} (dokumentum neve) --> feltolto : userInfo.email
+ *                                                     --> nev: recept neve
+ *                                                     --> recept_id: StorageContext generálja név alapján
+ *                                                     --> image: StorageContext a feltöltött kép letöltés urlt visszaadja
+ *                                                     --> a többi még kérdojeles
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ */
